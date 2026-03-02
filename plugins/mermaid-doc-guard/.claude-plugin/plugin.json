@@ -1,0 +1,4 @@
+{
+  "name": "mermaid-doc-guard",
+  "description": "Validate and repair Mermaid diagrams in repository markdown docs"
+}

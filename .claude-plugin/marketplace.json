@@ -1,0 +1,13 @@
+{
+  "name": "claude-skills",
+  "description": "Local Claude Code skills and plugins",
+  "plugins": [
+    {
+      "name": "mermaid-doc-guard",
+      "description": "Validate and repair Mermaid diagrams in repository markdown docs. Use when a Mermaid parser or render error appears, when editing docs diagrams, or before merging markdown changes containing Mermaid code blocks.",
+      "version": "1.0.0",
+      "source": "./plugins/mermaid-doc-guard",
+      "category": "productivity"
+    }
+  ]
+}
