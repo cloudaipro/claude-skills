@@ -1,6 +1,11 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "claude-skills",
   "description": "Local Claude Code skills and plugins",
+  "owner": {
+    "name": "Alex Chen",
+    "url": "https://github.com/cloudaipro"
+  },
   "plugins": [
     {
       "name": "mermaid-doc-guard",
