@@ -1,6 +1,8 @@
 # Claude Skills
 
-A local collection of Claude Code plugins and skills.
+Collection of Claude Code plugins and skills.
+
+**Repository:** https://github.com/cloudaipro/claude-skills
 
 ## Plugins
 
@@ -9,6 +11,12 @@ A local collection of Claude Code plugins and skills.
 ## Installation
 
 ```bash
-claude plugin marketplace add /Users/alex/data/work/claude-skills/
+# From GitHub
+claude plugin marketplace add https://github.com/cloudaipro/claude-skills
+claude plugin install mermaid-doc-guard@claude-skills
+
+# From local clone
+git clone https://github.com/cloudaipro/claude-skills
+claude plugin marketplace add /path/to/claude-skills/
 claude plugin install mermaid-doc-guard@claude-skills
 ```
